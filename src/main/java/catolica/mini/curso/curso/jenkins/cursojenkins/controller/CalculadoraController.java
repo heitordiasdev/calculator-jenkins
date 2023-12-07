@@ -25,5 +25,6 @@ public class CalculadoraController {
     @GetMapping("/subtrair/{a}/{b}")
     public int subtrair(@PathVariable int a, @PathVariable int b){
         return calculadoraService.subtrair(a,b);
+
     }
 }
